@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XM.ID.Invitations.Net", "XM.ID.Invitations.Net\XM.ID.Invitations.Net.csproj", "{08AA2ABA-1F5B-47D9-A9C1-3D65A56DCAA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XM.ID.Net", "..\XM.ID.Net\XM.ID.Net\XM.ID.Net.csproj", "{F095F9CA-A7DA-43F7-9B44-B9AF816E4F67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08AA2ABA-1F5B-47D9-A9C1-3D65A56DCAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AA2ABA-1F5B-47D9-A9C1-3D65A56DCAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AA2ABA-1F5B-47D9-A9C1-3D65A56DCAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AA2ABA-1F5B-47D9-A9C1-3D65A56DCAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F095F9CA-A7DA-43F7-9B44-B9AF816E4F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F095F9CA-A7DA-43F7-9B44-B9AF816E4F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F095F9CA-A7DA-43F7-9B44-B9AF816E4F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F095F9CA-A7DA-43F7-9B44-B9AF816E4F67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA4295C6-4D02-4638-A661-4385FB7FEA08}
+	EndGlobalSection
+EndGlobal

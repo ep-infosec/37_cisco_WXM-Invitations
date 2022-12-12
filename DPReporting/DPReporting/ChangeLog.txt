@@ -1,0 +1,3 @@
+﻿Version 1.0.11 Date 06-05-2021
+	- New version of Reporting is introduced. 
+	- This separates the Detailed Log and Operational Metrics and provisions are added for request them separately

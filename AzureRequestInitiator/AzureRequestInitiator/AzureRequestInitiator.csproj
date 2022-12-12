@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AzureFunctionsVersion>v3</AzureFunctionsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="a3y13l2c.l5z~" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.S3Events" Version="1.1.0" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\XM.ID.Initiator.Net\XM.ID.Initiator.Net\XM.ID.Initiator.Net.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ChangeLog.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+    <None Update="VERSION.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,701 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    flex-wrap:wrap;
+    overflow-x: hidden;
+}
+span, p{
+    font-size:14px
+}
+.heading{
+    margin-right: auto;
+    width: 100%;
+};
+.upload-btn{
+    width: 50%;
+    margin-left: auto;
+}
+.header-sign-in{
+    text-align: center;
+    font-size: 24px;
+}
+.heading h1{
+    margin:0;
+    font: 300 21px/30px Open Sans, sans-serif;
+}
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.login .form__group {
+    text-align: center;
+}
+.login label.form__label {
+    left: 139px;
+    position: relative;
+}
+#email-block {
+    margin-bottom: 20px;
+}
+button{
+    font-size: 14px;
+}
+span#setMultiLanguage {
+    text-transform: capitalize;
+}
+.add-btn button {
+    float: right;
+    min-height: 36px;
+    min-width: 70px;
+    line-height: 36px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #00bceb;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    padding: 0 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+.smsEditedValue span, .emailEditedValue span, .MessageBird span, .SparkPostValueEdited span, #setSuperAdminNotificationData, .mandrillPostValueEdited span, .pinnacle span, .vfsms span {
+    color: #ccc;
+    width: 50%;
+    display: block;
+}
+.smsEditedValue, .MessageBird, .emailEditedValue, .SparkPostValueEdited, .mandrillPostValueEdited , .pinnacle, .vfsms{
+    display:none
+}
+.download-btn button {
+    float: left;
+    margin-top:30px;
+    min-height: 48px;
+    min-width: 120px;
+    line-height: 36px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    background-color: #00bceb;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    padding: 0 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.description{
+    width:100%;
+    margin-top:30px;
+}
+.bottom-space{
+    margin-bottom: 20px !important;
+}
+.dispatcher-form{
+    width:100%;
+}
+
+.subtitle{
+    font: 700 14px/20px Open Sans, sans-serif;
+    text-transform: uppercase;
+    display: block;
+}
+.subtitle1{
+    font: 700 14px/20px Open Sans, sans-serif;
+    display: block;
+}
+.pre-label{
+    font: 400 14px/20px Open Sans, sans-serif;
+    margin-bottom: 10px;
+    float: left;
+    display: block;
+}
+.info{
+    font: 400 12px/20px Open Sans, sans-serif;
+    display: block;
+    color: #c1c1c1;
+}
+/* switch style */
+
+
+.switch-input {
+    display: none;
+  }
+  .switch-label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: left;
+    margin: 3px 36px 7px 0;
+    float: right;
+  }
+  .switch-label:before, .switch-label:after {
+    content: "";
+    position: absolute;
+    margin: 0;
+    outline: 0;
+    top: 50%;
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .switch-label:before {
+    left: 1px;
+    width: 34px;
+    height: 14px;
+    background-color: #9E9E9E;
+    border-radius: 8px;
+  }
+  .switch-label:after {
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.098), 0 1px 5px 0 rgba(0, 0, 0, 0.084);
+  }
+  
+  .switch-input:checked + .switch-label:before {
+   background-color: #00bceb;
+  }
+  .switch-input:checked + .switch-label:after {
+    background-color: #00bceb;
+    -ms-transform: translate(80%, -50%);
+    -webkit-transform: translate(80%, -50%);
+    transform: translate(80%, -50%);
+  }
+  .display-hor {
+    display: flex;
+    position:relative
+}
+.top-space {
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.display-hor1 div {
+    display: inline-block;
+}
+#configuration-block{
+    display:none;
+    margin-top: 30px;
+}
+.static-response{
+    margin-top: 30px;
+}
+.queue-status{
+    margin-top: 30px; 
+}
+#email-block, .errorUrl, #sms-block, #icon-block{
+    display:none
+}
+
+.display-hor div:last-child {
+    margin-top: auto;
+}
+.display-hor > div:last-child span {
+    color: #00bceb;
+    cursor: pointer;
+    display: block;
+    bottom: 11px;
+    position: relative;
+    margin-left: 30px;
+}
+.error-msg{
+    font-size: 12px;
+    color: #ff0000;
+    position: absolute;
+    left: 0;
+    
+}
+#static-response-error {
+    position: absolute;
+    top: 77px;
+    color: #EF5451;
+    display: none;
+    margin-left: 0;
+}
+#report-question-error {
+    position: absolute;
+    top: 62px;
+    color: #EF5451;
+    display: none;
+    margin-left: 0;
+}
+.error-noti, .error-save-vendor{
+    font-size: 11px;
+    color: #ff0000;
+display: none;
+    
+}
+.download-btn{
+    width: 100%;
+    display: inline-block;
+}
+#show-error{
+    font-size: 11px;
+    color: #ff0000;
+    display: block;
+}
+span#myBtn {
+    top: -9px;
+}
+.form-error-msg{
+    font-size: 11px;
+    color:#ff0000;
+    display: block;
+    position: relative;
+}
+.dispatch-error-msg{
+    font-size: 11px;
+    color:#ff0000;
+    display: none;  
+}
+.log-error-msg{
+    font-size: 14px;
+    color:#ff0000;
+}
+.form-properties {
+    height: 420px;
+    overflow: auto;
+}
+#storage-account-error, #queue-vendor-name-error{
+    font-size: 11px;
+    color:#ff0000;
+    display: none;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .buttons{
+      display: flex;
+      direction: rtl;
+  }
+  button.button-cancel {
+    margin-right: 15px;
+}
+#Storage-Account {
+    width: 450px;
+    color: #c1c1c1;
+    word-break: break-all;
+}
+#Queue-Vendor-name {
+    color: #c1c1c1;
+}
+  .fieldwrapper {
+    display: flex;
+  }
+  input.fieldname.form__field {
+    margin: 0px 20px 20px 0;
+}
+select.fieldtype.select-text {
+    margin: 0px 20px 20px 0;
+}
+.static-resp-div{
+    position: relative;
+}
+#btn-addfield
+{
+    margin: 0px 20px 20px 0;
+}
+.remove-field {
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: #EF5451;
+    left: 3px;
+}
+.remove-question {
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+    color: #EF5451;
+    left: 3px;
+}
+#icon-block{
+display: block;
+}
+#icon-block1{
+    display: block; 
+}
+#btn-addfield, #add-questions{
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+    color: #EF5451;
+}
+#add-questions{
+    margin-left: 20px;
+    left: 4px;
+}
+.select-dispatcher-list{
+    display:none;
+}
+.emailEditedValue, .SparkPostValueEdited{
+    margin-bottom: 20px;
+}
+.download-btn button:disabled, .download-btn
+button[disabled]{
+    cursor: not-allowed;
+    opacity: 40%;
+}
+#buildyourform .fieldwrapper .form__group:last-child {
+    display: none;
+}
+.logout {
+    float: right;
+    position: absolute;
+    right: 30px;
+    color: #00bceb;
+    top: 35px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.super-admin-notification p span {
+    color: #00bceb;
+    cursor: pointer;
+}
+
+.super-admin-notification {
+    margin: 30px 0 10px 0;
+}
+
+/* tabs ui code*/
+/* Tab Format */
+/* log for ACM UI */
+ul#tabs {
+    padding: 0;
+    margin-top: 38px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0;
+    display: inherit;
+}
+#tabs li {
+    display: inline;
+    min-height: 48px;
+    min-width: 190px;
+    line-height: 48px;
+    background-color: #9E9E9E;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+#tabs li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    display: block;
+    background: #00bceb !important;
+}
+#content02 .heading, #content03 .heading{
+    margin-top: 30px;
+}
+#content02, #content03{
+    display: none;
+}
+form#logsForm {
+    padding-bottom: 10px;
+}
+.table-area {
+    border-top: 1px solid #c1c1c1;
+}
+
+.check-box-div, .reportConfigCheckbox {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.check-box-div > div, .reportConfigCheckbox > div {
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.inline-group{
+    display: inline-block;
+    position: relative;
+}
+.datepickerGroup{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.inline-group div, .datepickerGroup div {
+    float: left;
+    width: 200px;
+}
+
+.inline-group div input, .datepickerGroup div input {
+height: 21px;
+padding: 6px 10px;
+border: 1px solid #9a9a9a;
+border-radius: 3px;
+width: 160px;
+}
+
+.from-calendar-icon {
+    position: absolute;
+    top: 36px;
+    right: 25px;
+    cursor: pointer;
+}
+.to-calendar-icon {
+    position: absolute;
+    top: 36px;
+    right: 25px;
+    cursor: pointer;
+}
+
+#content02 .download-btn button, #content03 .download-btn button  {
+    margin-top: 0;
+}
+
+.download-btn span {
+    color: #00bceb;
+    cursor: pointer;
+    margin: 30px;
+    line-height: 47px;
+}
+
+#tabs li
+{
+    cursor: pointer;
+}
+
+.uuidIdDiv{
+    display: none;
+}
+
+#content02 .download-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logInfo{
+float: left;
+}
+#excelDownload{
+float:right;
+color: #00bceb;
+margin-left: auto;
+}
+.excelDownload-div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#logTable {
+    border-collapse: collapse;
+    display: block;
+  }
+
+  #logTable  td,
+  #logTable  th {
+    min-width: 200px;
+    height: 25px;
+    font-size: 11px;
+    border: solid 1px #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    text-align: center;
+}
+#logTable tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
+  }
+#logTable  thead {
+    background-color: #EFEFEF;
+  }
+  #logTable  thead,
+  #logTable  tbody {
+  display: block;
+}
+.logTable {
+    display: flex;    overflow-x: auto;
+}
+.table-area{
+    display: none;
+}
+.excelDownload, .inline-group, #reportForm, #block-report1, #reportConfigForm, #content03 > p{
+    display: none;
+}
+.log-spinner{
+    display: block; 
+}
+#content
+{
+    width: 100%;
+    display: block;
+}
+#log-spinner {
+    text-align: center;
+    display: none;
+}
+#logsForm .form-error-msg{
+    position: absolute;
+}
+.fa-sign-out-alt{
+    position: relative;
+    top:1px;
+}
+
+/* report tab CSS style */
+
+#content03 #button-table {
+    margin-top: 20px;
+}
+#block-report{
+    text-align: center;
+    display: none;
+}
+#block-report1{
+    text-align: left;
+}
+.report-error {
+    color: #EF5451;
+    margin-top: 30px;
+}
+
+#reportPopup .modal-content {
+    width: 35%;
+    top: 20%;
+    position: relative;
+}
+sup{
+    color: red;
+    font-size: 12px;
+    top: 4px;
+    position: relative;
+}
+.pull-left{
+    float: left;
+}
+.checkbox{
+    margin:30px 0;
+}
+
+.copySmtpsettings {
+    color: #00bceb;
+    cursor: pointer;
+    display: inline-block;
+    bottom: 11px;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 0;
+}
+.show-smtp-settings, .get-smtp-settings {
+    color: #00bceb;
+    cursor: pointer;
+    display: inline-block;
+    bottom: 11px;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 0;
+}
+.required:after {
+    content:" *";
+    color: #ff0000;
+  }
+  p.warning {
+    color: #ff0000;
+}
+.smtpSettings{
+    margin-bottom: 30px;
+}
+.testEmailGroup .form-error-msg {
+position:absolute;
+top: 62px;
+}
+.report-config{
+    float:right;
+    color: #00bceb;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#reportConfigForm {
+    overflow: auto;
+    max-height: 400px;
+    margin-top: 30px;
+}
+.select-data{
+    margin-bottom: 18px;
+}
+.selectedQuestionValue{
+margin: 0px 20px 8px 0;
+}
+/* .reportConfigCheckbox .info {
+    margin-top: 40px;
+    position: relative;
+    display: block;
+    left: 6px;
+} */
+
+#reportConfigForm{
+    position: relative;
+}
+#twoFactorOpenPopup .modal-content {
+
+    width: 28%;
+}
+#twoFactorOpenPopup .modal-content .buttons {
+    margin-top: 32px;
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XM.ID.Initiator.Net", "XM.ID.Initiator.Net\XM.ID.Initiator.Net.csproj", "{C248104A-E9C4-4BAC-A172-2C17E55A3171}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XM.ID.Net", "..\XM.ID.Net\XM.ID.Net\XM.ID.Net.csproj", "{173B6675-64B6-48BA-A8E2-E69602CE9628}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C248104A-E9C4-4BAC-A172-2C17E55A3171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C248104A-E9C4-4BAC-A172-2C17E55A3171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C248104A-E9C4-4BAC-A172-2C17E55A3171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C248104A-E9C4-4BAC-A172-2C17E55A3171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173B6675-64B6-48BA-A8E2-E69602CE9628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173B6675-64B6-48BA-A8E2-E69602CE9628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173B6675-64B6-48BA-A8E2-E69602CE9628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173B6675-64B6-48BA-A8E2-E69602CE9628}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98A5B13C-E7EC-4748-88C0-F6DA6BDBF3A0}
+	EndGlobalSection
+EndGlobal

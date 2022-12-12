@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DPReporting", "DPReporting\DPReporting.csproj", "{1B421797-CAE1-466F-AB41-D3CA80680537}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E99C0B8C-580B-4333-A818-02804592DCE4} = {E99C0B8C-580B-4333-A818-02804592DCE4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XM.ID.Invitations.Net", "..\XM.ID.Invitations.Net\XM.ID.Invitations.Net\XM.ID.Invitations.Net.csproj", "{BC5B1525-ED55-4586-8CFD-D8BBA31D42F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XM.ID.Net", "..\XM.ID.Net\XM.ID.Net\XM.ID.Net.csproj", "{E99C0B8C-580B-4333-A818-02804592DCE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B421797-CAE1-466F-AB41-D3CA80680537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B421797-CAE1-466F-AB41-D3CA80680537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B421797-CAE1-466F-AB41-D3CA80680537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B421797-CAE1-466F-AB41-D3CA80680537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5B1525-ED55-4586-8CFD-D8BBA31D42F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5B1525-ED55-4586-8CFD-D8BBA31D42F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5B1525-ED55-4586-8CFD-D8BBA31D42F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5B1525-ED55-4586-8CFD-D8BBA31D42F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99C0B8C-580B-4333-A818-02804592DCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99C0B8C-580B-4333-A818-02804592DCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99C0B8C-580B-4333-A818-02804592DCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99C0B8C-580B-4333-A818-02804592DCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2761876-1151-4DDD-B64B-CB08506CA078}
+	EndGlobalSection
+EndGlobal

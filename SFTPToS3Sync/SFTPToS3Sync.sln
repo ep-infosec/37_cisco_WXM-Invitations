@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFTPToS3Sync", "SFTPToS3Sync\SFTPToS3Sync.csproj", "{FFDFAB42-9433-45E4-B7EA-B27C54E8A2D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XM.ID.Net", "..\XM.ID.Net\XM.ID.Net\XM.ID.Net.csproj", "{7A36E61B-348A-4E6B-A34C-A0DC6E4E2D1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDFAB42-9433-45E4-B7EA-B27C54E8A2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDFAB42-9433-45E4-B7EA-B27C54E8A2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDFAB42-9433-45E4-B7EA-B27C54E8A2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDFAB42-9433-45E4-B7EA-B27C54E8A2D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A36E61B-348A-4E6B-A34C-A0DC6E4E2D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A36E61B-348A-4E6B-A34C-A0DC6E4E2D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A36E61B-348A-4E6B-A34C-A0DC6E4E2D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A36E61B-348A-4E6B-A34C-A0DC6E4E2D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDA0AB0A-B820-4FF2-8ECD-42C69942576B}
+	EndGlobalSection
+EndGlobal

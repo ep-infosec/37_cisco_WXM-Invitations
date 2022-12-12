@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XM.ID.Net", "XM.ID.Net\XM.ID.Net.csproj", "{A504DC5B-7C92-4813-B9B2-C5FB0C3EC287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A504DC5B-7C92-4813-B9B2-C5FB0C3EC287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A504DC5B-7C92-4813-B9B2-C5FB0C3EC287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A504DC5B-7C92-4813-B9B2-C5FB0C3EC287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A504DC5B-7C92-4813-B9B2-C5FB0C3EC287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31680958-71FC-4E0E-8BDC-3ECAEA505728}
+	EndGlobalSection
+EndGlobal

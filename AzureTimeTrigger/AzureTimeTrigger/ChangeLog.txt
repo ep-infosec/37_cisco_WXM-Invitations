@@ -1,0 +1,6 @@
+﻿Version 1.0.11
+	- Added new vendor Value First for SMS channel. It is a bulk vendor.
+	- Updated channel in LogEvent log message from Email to SMS.
+
+Version 1.0.12
+	- Update time trigger to work for all bulk vendors in single deployment.

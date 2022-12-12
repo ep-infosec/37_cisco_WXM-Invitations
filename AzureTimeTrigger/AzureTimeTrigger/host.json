@@ -1,0 +1,5 @@
+{
+  "version": "2.0",
+  "functions": [ "TimeTrigger" ],
+  "functionTimeout": "00:10:00"
+}

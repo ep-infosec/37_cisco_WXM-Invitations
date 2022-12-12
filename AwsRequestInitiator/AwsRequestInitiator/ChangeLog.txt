@@ -1,0 +1,10 @@
+﻿Version 1.0.11 (Date - 08/03/2021)
+	- Fixed the issue of double qoutes in csv file while reading the data from it.
+	- Fixed the same file name issue, due to which old batch Id was being used instead of new one if file name was same.
+
+Version 1.0.12 (Date - 14/04/2021)
+	- Fixed encoding issue when csv file was placed with values having qoutes and other special characters.
+	- Removed uncessary warning when file was deleted.
+
+Version 1.0.13 (Date - 08/03/2021)
+	- Added fix to give full control to file placed in Archive folder of S3 bucket.

@@ -1,0 +1,6 @@
+﻿Version 1.0.11
+	- Cleared the list containing event logs after each run.
+	- The application will start the sync process as soon as process starts.
+
+Version 1.0.12
+	- Updated Renci.SSH library and added fix to stop blocking issue while disconnecting SFTP.

@@ -1,0 +1,6 @@
+﻿Version 1.0.14 (27th May 2021)
+	- Added fix for showing proper error message when API returns Bad request (400 status code).
+	- Clear data from all input fields if API returns Bad request (status code 400).
+
+Verion 1.0.15 (14th July 2021)
+	- Added 2FA implememtation for login.

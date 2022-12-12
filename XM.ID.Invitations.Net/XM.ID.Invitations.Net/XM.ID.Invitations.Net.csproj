@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cronos" Version="0.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.3" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\XM.ID.Net\XM.ID.Net\XM.ID.Net.csproj" />
+  </ItemGroup>
+
+</Project>

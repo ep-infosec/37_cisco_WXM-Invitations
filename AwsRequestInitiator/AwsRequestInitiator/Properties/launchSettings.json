@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Mock Lambda Test Tool": {
+      "commandName": "Executable",
+      "commandLineArgs": "--port 5050",
+      "workingDirectory": ".\\bin\\$(Configuration)\\netcoreapp3.1",
+      "environmentVariables": {
+        "MongoDBConnectionString": "[Your Mongo-DB-Connection-String goes here]",
+        "BatchSize": "[Size of Batch in which Dispatch API request would be sent.]",
+        "TimeDelay": "[Time Delay in secs after every Dispatch API request.]",
+        "DatabaseName": "[Your Database-Name goes here]"
+      }
+    }
+  }
+}
